@@ -10,9 +10,9 @@ Automatically add visitor as anonymous guest with userId
 
 ##Installation
 ```sh
-mrt add accounts-base
-mrt add accounts-password
-mrt add accounts-guest
+meteor add accounts-base
+meteor add accounts-password
+meteor add dcsan:accounts-guest
 ```
 
 then in client-only code
